@@ -1,30 +1,22 @@
 //
-//  NewVC.m
+//  NextVC.m
 //  TestGitHub
 //
-//  Created by Manish Ranjan on 5/19/17.
+//  Created by Crystal Logic on 19/05/17.
 //  Copyright © 2017 CrystalLogic. All rights reserved.
 //
 
-#import "NewVC.h"
 #import "NextVC.h"
-@interface NewVC ()
+
+@interface NextVC ()
 
 @end
 
-@implementation NewVC
+@implementation NextVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-   //selected is removed
-}
-
--(IBAction)showAlert:(id)sender
-{
-    NextVC *nextVc = [self.storyboard instantiateViewControllerWithIdentifier:@"NextView"];
-    [self.navigationController pushViewController:nextVc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

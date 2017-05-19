@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D733E071ECF1A4A008661BE /* NextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D733E061ECF1A4A008661BE /* NextVC.m */; };
 		137AF34E1ECF0A3700AC9BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137AF34D1ECF0A3700AC9BBC /* main.m */; };
 		137AF3511ECF0A3700AC9BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137AF3501ECF0A3700AC9BBC /* AppDelegate.m */; };
 		137AF3541ECF0A3700AC9BBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137AF3531ECF0A3700AC9BBC /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D733E051ECF1A4A008661BE /* NextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextVC.h; sourceTree = "<group>"; };
+		0D733E061ECF1A4A008661BE /* NextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextVC.m; sourceTree = "<group>"; };
 		137AF3491ECF0A3700AC9BBC /* TestGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		137AF34D1ECF0A3700AC9BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		137AF34F1ECF0A3700AC9BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				137AF3531ECF0A3700AC9BBC /* ViewController.m */,
 				137AF3631ECF0C0500AC9BBC /* NewVC.h */,
 				137AF3641ECF0C0500AC9BBC /* NewVC.m */,
+				0D733E051ECF1A4A008661BE /* NextVC.h */,
+				0D733E061ECF1A4A008661BE /* NextVC.m */,
 				137AF3551ECF0A3700AC9BBC /* Main.storyboard */,
 				137AF3581ECF0A3700AC9BBC /* Assets.xcassets */,
 				137AF35A1ECF0A3700AC9BBC /* LaunchScreen.storyboard */,
@@ -159,6 +164,7 @@
 				137AF3541ECF0A3700AC9BBC /* ViewController.m in Sources */,
 				137AF3651ECF0C0500AC9BBC /* NewVC.m in Sources */,
 				137AF3511ECF0A3700AC9BBC /* AppDelegate.m in Sources */,
+				0D733E071ECF1A4A008661BE /* NextVC.m in Sources */,
 				137AF34E1ECF0A3700AC9BBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +340,7 @@
 				137AF3621ECF0A3700AC9BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
