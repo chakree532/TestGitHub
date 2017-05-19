@@ -27,6 +27,33 @@
     [self.navigationController pushViewController:nextVc animated:YES];
 }
 
+- (IBAction)NewAction:(id)sender
+{
+    //hihi gvyv
+    //vghy bhj
+    UIAlertController * alert=[UIAlertController
+                               
+                               alertControllerWithTitle:@"Title" message:@"Message"preferredStyle:UIAlertControllerStyleAlert];
+    
+    
+    UIAlertAction* noButton = [UIAlertAction
+                               actionWithTitle:@"yes"
+                               style:UIAlertActionStyleDefault
+                               handler:^(UIAlertAction * action)
+                               {
+                                   
+                                   
+                                   
+                                   NSLog(@"you pressed No, thanks button");
+                               }];
+    
+    [alert addAction:noButton];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
