@@ -21,7 +21,7 @@
 
 -(IBAction)showAlert:(id)sender
 {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Hi" message:@"This is a test alert" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Hi" message:@"This is a test new alert" preferredStyle:UIAlertControllerStyleAlert];
     
     [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
         
