@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self performSelector:@selector(showAlert:) withObject:nil afterDelay:0.1];
 }
 
 -(IBAction)showAlert:(id)sender
