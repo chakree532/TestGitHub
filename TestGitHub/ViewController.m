@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NewVC.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(IBAction)NextPressed:(id)sender
+{
+    
+    NewVC *new = [self.storyboard instantiateViewControllerWithIdentifier:@"NewView"];
+    
+    [self.navigationController pushViewController:new animated:YES];
+    
 }
 
 

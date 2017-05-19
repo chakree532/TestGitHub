@@ -13,6 +13,7 @@
 		137AF3571ECF0A3700AC9BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137AF3551ECF0A3700AC9BBC /* Main.storyboard */; };
 		137AF3591ECF0A3700AC9BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137AF3581ECF0A3700AC9BBC /* Assets.xcassets */; };
 		137AF35C1ECF0A3700AC9BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137AF35A1ECF0A3700AC9BBC /* LaunchScreen.storyboard */; };
+		137AF3651ECF0C0500AC9BBC /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 137AF3641ECF0C0500AC9BBC /* NewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		137AF3581ECF0A3700AC9BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137AF35B1ECF0A3700AC9BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137AF35D1ECF0A3700AC9BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137AF3631ECF0C0500AC9BBC /* NewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVC.h; sourceTree = "<group>"; };
+		137AF3641ECF0C0500AC9BBC /* NewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				137AF3501ECF0A3700AC9BBC /* AppDelegate.m */,
 				137AF3521ECF0A3700AC9BBC /* ViewController.h */,
 				137AF3531ECF0A3700AC9BBC /* ViewController.m */,
+				137AF3631ECF0C0500AC9BBC /* NewVC.h */,
+				137AF3641ECF0C0500AC9BBC /* NewVC.m */,
 				137AF3551ECF0A3700AC9BBC /* Main.storyboard */,
 				137AF3581ECF0A3700AC9BBC /* Assets.xcassets */,
 				137AF35A1ECF0A3700AC9BBC /* LaunchScreen.storyboard */,
@@ -110,7 +115,8 @@
 				TargetAttributes = {
 					137AF3481ECF0A3700AC9BBC = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 7AZ8P3GWQD;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				137AF3541ECF0A3700AC9BBC /* ViewController.m in Sources */,
+				137AF3651ECF0C0500AC9BBC /* NewVC.m in Sources */,
 				137AF3511ECF0A3700AC9BBC /* AppDelegate.m in Sources */,
 				137AF34E1ECF0A3700AC9BBC /* main.m in Sources */,
 			);
@@ -199,9 +206,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7AZ8P3GWQD;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -221,6 +230,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "b28e424b-7cff-4302-8756-e7d7bdea4083";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_WildCard_200;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -247,9 +258,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7AZ8P3GWQD;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -262,6 +275,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "b28e424b-7cff-4302-8756-e7d7bdea4083";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_WildCard_200;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -272,10 +287,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
+				DEVELOPMENT_TEAM = 7AZ8P3GWQD;
 				INFOPLIST_FILE = TestGitHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CrystalLogic.TestGitHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b28e424b-7cff-4302-8756-e7d7bdea4083";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_WildCard_200;
 			};
 			name = Debug;
 		};
@@ -283,10 +303,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Jhalani (PG7J42JRTR)";
+				DEVELOPMENT_TEAM = 7AZ8P3GWQD;
 				INFOPLIST_FILE = TestGitHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CrystalLogic.TestGitHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b28e424b-7cff-4302-8756-e7d7bdea4083";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_WildCard_200;
 			};
 			name = Release;
 		};
