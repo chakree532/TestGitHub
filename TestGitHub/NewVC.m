@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    //New selector
     [self performSelector:@selector(showAlert:) withObject:nil afterDelay:0.1];
 }
 
