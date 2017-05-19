@@ -19,6 +19,19 @@
     // Do any additional setup after loading the view.
 }
 
+-(IBAction)showAlert:(id)sender
+{
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Alert" message:@"This is a alert" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        
+        
+    }]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
