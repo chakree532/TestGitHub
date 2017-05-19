@@ -18,8 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //New selector here
-    [self performSelector:@selector(showAlert:) withObject:nil afterDelay:0.1];
+   //selected is removed
 }
 
 -(IBAction)showAlert:(id)sender
